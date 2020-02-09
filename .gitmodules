@@ -1,0 +1,3 @@
+[submodule "UAS/PX4/Firmware"]
+	path = UAS/PX4/Firmware
+	url = git@github.com:akarshgopal/Firmware.git
