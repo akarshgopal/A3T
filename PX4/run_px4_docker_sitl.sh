@@ -13,7 +13,7 @@ sudo docker run -it --privileged \
 -e DISPLAY=$DISPLAY \
 -e QT_X11_NO_MITSHM=1 \
 -p 14556:14556/udp \
---workdir src/Firmware \
+--workdir /src/Firmware \
 --name=mycontainer px4-dev-ros-melodic-nvidia \
 bash
 

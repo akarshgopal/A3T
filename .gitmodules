@@ -1,7 +1,8 @@
 [submodule "PX4/Firmware"]
 	path = PX4/Firmware
 	url = git@github.com:akarshgopal/Firmware.git
-
+	branch = master
 [submodule "Ardupilot/ardupilot"]
 	path = Ardupilot/ardupilot
 	url = git@github.com/ArduPilot/ardupilot.git
+	branch = master
