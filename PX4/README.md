@@ -37,7 +37,7 @@ For general px4 dev toolchain container check [here](https://dev.px4.io/master/e
 
 6. Build docker image w Dockerfile
     ```
-    docker build -t px4-dev-sitl-ros-nvidia:latest . 
+    docker build -t px4-dev-ros-melodic-nvidia:latest . 
     ```
 
 7. Run docker using the following commands in terminal:
@@ -95,7 +95,7 @@ A couple of things to keep in mind:
             - Mass
             - Moments of Inertia
         - Motor
-            - Constants
+            - Constants: Used motor calculation excel sheet to calculate constants. Will upload on drive.
     - Custom world (location + conditions)
         - Location
         - Map?
