@@ -46,9 +46,8 @@ For general px4 dev toolchain container check [here](https://dev.px4.io/master/e
     ./run_px4_docker_sitl.sh 
     ```
 
-8. Enter into Firmware folder and build sitl with custom_model (eg.a3t_vau):
+8. Build sitl with custom_model (eg.a3t_vau):
 ```
-    cd src/Firmware
     make px4_sitl gazebo_custom_model
 ```
 Note: if cmakecache error is thrown, run
