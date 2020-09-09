@@ -1,4 +1,4 @@
-[submodule "PX4/Firmware"]
+[submodule "PX4/src/Firmware"]
 	path = PX4/src/Firmware
 	url = git@github.com:akarshgopal/Firmware.git
 	branch = master
