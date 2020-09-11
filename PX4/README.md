@@ -150,3 +150,9 @@ VAU SDF:
 - Need to verify that CoG, and Cp for wings match the openvsp model
 
 (Git management tutorial for PX4)[https://dev.px4.io/master/en/contribute/git_examples.html]
+
+
+
+- Made a new branch for prototype airframe build in PX4
+- Required px4io/px4-dev-nuttx-bionic docker image for toolchain to build firmware. sitl toolchain doesn't suffice.
+- Required git submodule --update --recursive to update submodules properly. Might also need make 
