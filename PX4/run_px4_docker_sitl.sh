@@ -13,7 +13,7 @@ sudo docker run -it --privileged \
 -e QT_X11_NO_MITSHM=1 \
 -p 14556:14556/udp \
 --workdir /src/Firmware \
---name=mycontainer px4-dev-ros-melodic \
+--name=mycontainer px4io/px4-dev-ros-melodic \
 bash
 
 # cd src/Firmware
